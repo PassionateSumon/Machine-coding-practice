@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+body {
+    margin: 20px;
+    background-color: #292929;
+    color: whitesmoke;
+}
+
+.heading {
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.tab-form-view {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tabs {
+    border: 2px solid #ff7b00;
+    padding: 5px;
+    cursor: pointer;
+    background-color: aliceblue;
+    color: brown;
+    border-radius: 10%;
+}
+
+.tab-view {
+    border: 1px solid white;
+    height: 35vh;
+    margin-top: -10px;
+    /* padding-top: 30px;
+    padding-left: 30px; */
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    /* background-color: #f5f5f5; */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-input-wrapper-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+}
+
+.profile-input-wrapper-div label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 3px;
+}
+
+.profile-input {
+    width: 100%;
+    border: 1px solid white;
+    background-color: whitesmoke;
+    color: black;
+    margin-left: 7PX;
+}
+
+.interest-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.interest-container h3 {
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.interest-list {
+    display: flex;
+    align-items: center;
+}
+
+.int-label {
+    /* margin-left: 5px; */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.bottom-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.btn {
+    border: 1px solid green;
+    padding: 7px 10px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.err {
+    color: red;
+    font-size: 12px;
+}
