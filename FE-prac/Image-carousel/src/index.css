@@ -1,0 +1,34 @@
+* {
+  background-color: #292929;
+  color: whitesmoke
+}
+
+.App {
+  text-align: center;
+}
+
+.image-con {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+  height: 97.5vh;
+  object-fit: cover;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+.right {
+  right: 0;
+}
